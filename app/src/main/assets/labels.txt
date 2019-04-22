@@ -1,0 +1,7 @@
+0,gm
+1,go
+2,lm
+3,m
+4,sgo
+5,slm
+6,sm

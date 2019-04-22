@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/infobg"
+android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#7BB3D1"
+    android:layout_marginTop="150dp"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic1"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="6dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/permission"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#7BB3D1"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic2"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="6dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/album"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#7BB3D1"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic3"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="6dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/ontime"
+        android:gravity="center_vertical"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+</LinearLayout>
+</LinearLayout>

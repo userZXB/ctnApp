@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">棉花分类器</string>
+    <string name="info">使用手册</string>
+    <string name="picture">图片识别</string>
+    <string name="camera">实时检测</string>
+    <string name="permission">请接受app请求的权限</string>
+    <string name="album">”图片识别”分类棉花图片</string>
+    <string name="ontime">“实时检测”分类棉花实物</string>
+    <string name="add">继续</string>
+</resources>
